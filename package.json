@@ -1,0 +1,25 @@
+{
+  "name": "codejam3",
+  "version": "1.0.0",
+  "description": "codeJam3 - Create three functions",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadgptw/rsschool-codejam.git"
+  },
+  "author": "Alexandr Gordin Gordin.Alexander90@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jadgptw/rsschool-codejam/issues"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/Jadgptw/rsschool-codejam#readme"
+}
