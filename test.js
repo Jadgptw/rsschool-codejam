@@ -1,11 +1,11 @@
 const assert = require('assert');
 
-const sumOfOther = require('./sumOfOther.js');
+const sumOfOther = require('./src/sumOfOther.js');
 
-const make = require('./make.js');
+const make = require('./src/make.js');
 const sum = (a, b) => a + b;
 
-const recursion = require('./recursion.js');
+const recursion = require('./src/recursion.js');
 const tree = {"value":100,"left":{"value":90,"left":{"value":70},"right":{"value":99}},
     "right":{"value":120,"left":{"value":110},"right":{"value":130}}};
 
