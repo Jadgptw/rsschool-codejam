@@ -1,7 +1,14 @@
 const assert = require('assert');
+
 const sumOfOther = require('./sumOfOther.js');
+
 const make = require('./make.js');
 const sum = (a, b) => a + b;
+
+const recursion = require('./recursion.js');
+const tree = {"value":100,"left":{"value":90,"left":{"value":70},"right":{"value":99}},
+    "right":{"value":120,"left":{"value":110},"right":{"value":130}}};
+
 
 describe('sumOfOther function', () => {
     it('check empty array', () => {
@@ -25,4 +32,11 @@ describe('make function', () => {
     it('check function with one and many arguments', () => {
         assert.deepEqual(make(5)(10, 15, 20)(25)(sum), 75);
     });
+});
+
+describe('recursion function', () => {
+    it('check tree from the task', () => {
+        assert.deepEqual(recursion(tree), [[100], [90, 120], [70,99,110,130]]);
+    });
+
 });
